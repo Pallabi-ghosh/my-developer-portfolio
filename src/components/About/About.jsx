@@ -9,6 +9,7 @@ import Fade from 'react-reveal/Fade';
 import { Container, Row, Col } from 'react-bootstrap';
 import Title from '../Title/Title';
 import image from '../../images/image.png';
+import pdf from '../../assets/cv.pdf';
 
 const About = () => {
   const [isDesktop, setIsDesktop] = useState(false);
@@ -54,16 +55,26 @@ const About = () => {
                   aspire to work on impactful projects and contribute with all my skills as well as
                   learn continually.
                 </p>
-                <span className="d-flex mt-3">
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="cta-btn cta-btn--resume"
-                    href="./static/resume.pdf"
-                  >
-                    Resume
-                  </a>
-                </span>
+                <Fade
+                  left={isDesktop}
+                  bottom={isMobile}
+                  duration={1000}
+                  delay={1000}
+                  distance="30px"
+                >
+                  <p className="about-cta">
+                    <span className="d-flex mt-3">
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="cta-btn cta-btn--resume"
+                        href={pdf}
+                      >
+                        Resume
+                      </a>
+                    </span>
+                  </p>
+                </Fade>
               </div>
             </Fade>
           </Col>

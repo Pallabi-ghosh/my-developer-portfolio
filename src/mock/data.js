@@ -24,6 +24,14 @@ export const aboutData = {
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
+// HERO DATA
+export const servicesData = {
+  title: '',
+  name: '',
+  subtitle: '',
+  cta: '',
+};
+
 // PROJECTS DATA
 export const projectsData = [
   {
