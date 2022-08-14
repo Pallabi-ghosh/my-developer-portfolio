@@ -216,7 +216,11 @@ const Projects = () => {
                   >
                     <i className="fa fa-github fa-lg" id="livedemo-icon" />
                   </a>
-                  <a href="" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://lucent-custard-00318a.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <i id="livedemo-icon" className="fa fa-desktop fa-lg" />
                   </a>
                 </div>
