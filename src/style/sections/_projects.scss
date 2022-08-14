@@ -75,5 +75,15 @@
       }
     }
   }
-  
+  #livedemo-icon {
+    color: $primary-color;
+    padding: 10px;
+
+    &:hover,
+      &:active {
+        color: rgb(1, 94, 105);
+        
+        
+      }
+  }
 }

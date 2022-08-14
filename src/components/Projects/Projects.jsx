@@ -44,10 +44,12 @@ const Projects = () => {
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="cta-btn cta-btn--hero"
                     href="https://github.com/Pallabi-ghosh/Onboarding-flutter-app"
                   >
-                    Source Code
+                    <i className="fa fa-github fa-lg" id="livedemo-icon" />
+                  </a>
+                  <a href="" target="_blank" rel="noopener noreferrer">
+                    <i id="livedemo-icon" className="fa fa-desktop fa-lg" />
                   </a>
                 </div>
               </Fade>
@@ -97,10 +99,12 @@ const Projects = () => {
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="cta-btn cta-btn--hero"
                     href="https://github.com/Pallabi-ghosh/rock-paper-scissors-app"
                   >
-                    Source Code
+                    <i className="fa fa-github fa-lg" id="livedemo-icon" />
+                  </a>
+                  <a href="" target="_blank" rel="noopener noreferrer">
+                    <i id="livedemo-icon" className="fa fa-desktop fa-lg" />
                   </a>
                 </div>
               </Fade>
@@ -151,10 +155,12 @@ const Projects = () => {
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="cta-btn cta-btn--hero"
                     href="https://github.com/Pallabi-ghosh/android-movie-app"
                   >
-                    Source Code
+                    <i className="fa fa-github fa-lg" id="livedemo-icon" />
+                  </a>
+                  <a href="" target="_blank" rel="noopener noreferrer">
+                    <i id="livedemo-icon" className="fa fa-desktop fa-lg" />
                   </a>
                 </div>
               </Fade>
@@ -202,10 +208,12 @@ const Projects = () => {
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="cta-btn cta-btn--hero"
                     href="https://github.com/Pallabi-ghosh/Todo-List-with-React"
                   >
-                    Source Code
+                    <i className="fa fa-github fa-lg" id="livedemo-icon" />
+                  </a>
+                  <a href="" target="_blank" rel="noopener noreferrer">
+                    <i id="livedemo-icon" className="fa fa-desktop fa-lg" />
                   </a>
                 </div>
               </Fade>

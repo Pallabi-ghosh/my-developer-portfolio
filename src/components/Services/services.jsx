@@ -5,7 +5,7 @@
 /* eslint-disable react/self-closing-comp */
 /* eslint-disable jsx-a11y/alt-text */
 import React from 'react';
-import { Container } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 import { BiCheck } from 'react-icons/bi';
 import Title from '../Title/Title';
 
@@ -14,7 +14,7 @@ const Services = () => {
     <section id="services">
       <Container>
         <Title title="Services" />
-        <div className="container services__container">
+        <Row className="container services__container">
           <article className="service">
             <div className="service__head">
               <h3>UI/UX Design</h3>
@@ -140,7 +140,7 @@ const Services = () => {
               </li>
             </ul>
           </article>
-        </div>
+        </Row>
       </Container>
     </section>
   );
