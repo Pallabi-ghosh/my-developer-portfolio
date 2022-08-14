@@ -104,7 +104,11 @@ const Projects = () => {
                     <i className="fa fa-github fa-lg" id="livedemo-icon" />
                   </a>
                   <a href="" target="_blank" rel="noopener noreferrer">
-                    <i id="livedemo-icon" className="fa fa-desktop fa-lg" />
+                    <i
+                      id="livedemo-icon"
+                      className="fa fa-desktop fa-lg"
+                      href="https://merry-taiyaki-055dc8.netlify.app/"
+                    />
                   </a>
                 </div>
               </Fade>
