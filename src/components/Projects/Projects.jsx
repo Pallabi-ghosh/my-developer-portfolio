@@ -6,7 +6,7 @@ import Fade from 'react-reveal/Fade';
 import Tilt from 'react-tilt';
 import { Container, Row, Col } from 'react-bootstrap';
 import Title from '../Title/Title';
-import simulator from '../../images/simulator.png';
+import portfolio from '../../images/portfolio.png';
 import rock from '../../images/rock.png';
 import android from '../../images/android.png';
 import todo from '../../images/todo.png';
@@ -34,11 +34,11 @@ const Projects = () => {
             <Col lg={4} sm={12}>
               <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
                 <div className="project-wrapper__text">
-                  <h3 className="project-wrapper__text-title">Onboarding Flutter App</h3>
+                  <h3 className="project-wrapper__text-title">My UX/UI portfolio</h3>
                   <div>
                     <p>
-                      Flutter Onboarding app. This project is a starting point for a Flutter
-                      application.
+                      I have built this web app in React, Javascript and SASS from scratch. In this
+                      portfolio, I have showcased my entire work as a UI/UX designer.
                     </p>
                   </div>
                   <a
@@ -48,7 +48,11 @@ const Projects = () => {
                   >
                     <i className="fa fa-github fa-lg" id="livedemo-icon" />
                   </a>
-                  <a href="" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://pallabi-ux-portfolio.herokuapp.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <i id="livedemo-icon" className="fa fa-desktop fa-lg" />
                   </a>
                 </div>
@@ -78,7 +82,7 @@ const Projects = () => {
                       }}
                     >
                       <div data-tilt className="thumbnail rounded">
-                        <img src={simulator} style={{ width: 150 }} />
+                        <img src={portfolio} style={{ width: 150 }} />
                       </div>
                     </Tilt>
                   </a>
