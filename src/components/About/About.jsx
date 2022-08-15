@@ -41,19 +41,20 @@ const About = () => {
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
                 <p>
-                  I am working with web app development and UX design for one year. After, I
-                  relocated to Denmark from India, I changed my profession from school teacher to IT
-                  developer. After being graduated from&nbsp;
-                  <a href="https://www.hackyourfuture.dk/">Hack Your Future.</a> I have gathered
-                  professional working experiences from two startups in Copenhagen. Prior to that, I
-                  have also worked as a freelance graphic designer for customers across the globe.
+                  I am a versatile and enthusiastic lady from India, living in Denmark for three
+                  years. For the last two years, I have been working as a Frontend developer and
+                  UI/UX designer. I have been working with Javascript, HTML/CSS, Swift and React
+                  Native to deliver exceptional customer experiences. Adept at contributing to a
+                  highly collaborative work environment, finding solutions, and determining customer
+                  satisfaction.
                 </p>
                 <p>
                   Always positive and smiling attitude has garnered appreciations from my previous
                   teams. I am a good listener and always appreciate feedbacks. I am capable of
                   quickly adapting to changes. A team player who likes to have fun with everybody. I
                   aspire to work on impactful projects and contribute with all my skills as well as
-                  learn continually.
+                  learn continually. In my leisure time, I love running, watching movies with my
+                  family, and decorating my home.
                 </p>
                 <Fade
                   left={isDesktop}
