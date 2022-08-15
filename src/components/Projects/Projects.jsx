@@ -8,7 +8,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Title from '../Title/Title';
 import portfolio from '../../images/portfolio.png';
 import rock from '../../images/rock.png';
-import android from '../../images/android.png';
+import nextapp from '../../images/nextapp.png';
 import todo from '../../images/todo.png';
 
 const Projects = () => {
@@ -82,7 +82,67 @@ const Projects = () => {
                       }}
                     >
                       <div data-tilt className="thumbnail rounded">
-                        <img src={portfolio} style={{ width: 150 }} />
+                        <img src={portfolio} style={{ height: 250 }} />
+                      </div>
+                    </Tilt>
+                  </a>
+                </div>
+              </Fade>
+            </Col>
+          </Row>
+          <Row>
+            <Col lg={4} sm={12}>
+              <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
+                <div className="project-wrapper__text">
+                  <h3 className="project-wrapper__text-title">Android movie app</h3>
+                  <div>
+                    <p>
+                      Application that displays Fitnessapp, where see services and login with
+                      google. Buit this app with Next.js and Tailwind CSS.
+                    </p>
+                  </div>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://github.com/Pallabi-ghosh/android-movie-app"
+                  >
+                    <i className="fa fa-github fa-lg" id="livedemo-icon" />
+                  </a>
+                  <a
+                    href="https://eclectic-cat-46faf2.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i id="livedemo-icon" className="fa fa-desktop fa-lg" />
+                  </a>
+                </div>
+              </Fade>
+            </Col>
+            <Col lg={8} sm={12}>
+              <Fade
+                right={isDesktop}
+                bottom={isMobile}
+                duration={1000}
+                delay={1000}
+                distance="30px"
+              >
+                <div className="project-wrapper__image">
+                  <a target="_blank" aria-label="Project Link" rel="noopener noreferrer">
+                    <Tilt
+                      options={{
+                        reverse: false,
+                        max: 8,
+                        perspective: 1000,
+                        scale: 1,
+                        speed: 300,
+                        transition: true,
+                        axis: null,
+                        reset: true,
+                        easing: 'cubic-bezier(.03,.98,.52,.99)',
+                      }}
+                    >
+                      <div data-tilt className="thumbnail rounded">
+                        <img src={nextapp} style={{ height: 250 }} />
                       </div>
                     </Tilt>
                   </a>
@@ -141,63 +201,7 @@ const Projects = () => {
                       }}
                     >
                       <div data-tilt className="thumbnail rounded">
-                        <img src={rock} style={{ height: 150 }} />
-                      </div>
-                    </Tilt>
-                  </a>
-                </div>
-              </Fade>
-            </Col>
-          </Row>
-          <Row>
-            <Col lg={4} sm={12}>
-              <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
-                <div className="project-wrapper__text">
-                  <h3 className="project-wrapper__text-title">Android movie app</h3>
-                  <div>
-                    <p>
-                      🎬 Application that displays a list of Movies, TV shows and Trending using the
-                      Modern Android Application Development tools and API's.
-                    </p>
-                  </div>
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://github.com/Pallabi-ghosh/android-movie-app"
-                  >
-                    <i className="fa fa-github fa-lg" id="livedemo-icon" />
-                  </a>
-                  <a href="" target="_blank" rel="noopener noreferrer">
-                    <i id="livedemo-icon" className="fa fa-desktop fa-lg" />
-                  </a>
-                </div>
-              </Fade>
-            </Col>
-            <Col lg={8} sm={12}>
-              <Fade
-                right={isDesktop}
-                bottom={isMobile}
-                duration={1000}
-                delay={1000}
-                distance="30px"
-              >
-                <div className="project-wrapper__image">
-                  <a target="_blank" aria-label="Project Link" rel="noopener noreferrer">
-                    <Tilt
-                      options={{
-                        reverse: false,
-                        max: 8,
-                        perspective: 1000,
-                        scale: 1,
-                        speed: 300,
-                        transition: true,
-                        axis: null,
-                        reset: true,
-                        easing: 'cubic-bezier(.03,.98,.52,.99)',
-                      }}
-                    >
-                      <div data-tilt className="thumbnail rounded">
-                        <img src={android} style={{ height: 350 }} />
+                        <img src={rock} style={{ height: 200 }} />
                       </div>
                     </Tilt>
                   </a>
@@ -254,7 +258,7 @@ const Projects = () => {
                       }}
                     >
                       <div data-tilt className="thumbnail rounded">
-                        <img src={todo} style={{ height: 150 }} />
+                        <img src={todo} style={{ height: 200 }} />
                       </div>
                     </Tilt>
                   </a>
