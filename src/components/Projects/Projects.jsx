@@ -94,7 +94,7 @@ const Projects = () => {
             <Col lg={4} sm={12}>
               <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
                 <div className="project-wrapper__text">
-                  <h3 className="project-wrapper__text-title">Android movie app</h3>
+                  <h3 className="project-wrapper__text-title">Fitness App in NextJs</h3>
                   <div>
                     <p>
                       Application that displays Fitnessapp, where see services and login with
