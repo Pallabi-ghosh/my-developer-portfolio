@@ -1,6 +1,4 @@
-## Pallabi Ghosh Das portfolio
-
-# my-developer-portfolio
+# Pallabi Ghosh Das portfolio
 
 Please click ⭐ if you like the project. Pull request are highly appreciated ❤️.
 
